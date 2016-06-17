@@ -1,0 +1,26 @@
+MSC CDR Parser V1
+
+INPUT=ASN.1 encoded binary file
+OUTPUT=values separated by "|" (DEFAULT: low size, database input compatible)
+OUTPUT2=values in readable arrangement for humans (REFER 3.decode_msc.py to change to this. bigger size)
+
+
+1. main.py <---USE THIS TO DECODE
+-The main file where source files and destination files are mentioned and will be decoded in multiple threads
+
+2. fields.py
+-Defines the format and arrangement of the values separated by "|"
+
+3. decode_msc.py
+-Main decoding script.
+
+-comment or remove line 92: result=columnit(result) to make OUTPUT2 (Human readable)
+
+4. defs.py
+-definition of ASN1 for MSC in classes
+
+5. parsers.py
+-hex decoders and pretty printer definitions
+
+6. parserimp.py
+-value converter. Pretty printer.

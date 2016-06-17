@@ -1,0 +1,17 @@
+--
+-- 23/05/2016
+--
+--
+--
+
+PARSED - SMSC + MSC = 8GB/Month ()
+
+MSC(RAW FILES) - 74 GB/MONTH (75000 files per month on avg)
+
+RAW - SGSN (70 GB/MONTH) 
+
+GGSN
+
+SS
+
+WIFIOFFLOAD
